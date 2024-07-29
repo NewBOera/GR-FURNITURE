@@ -3,7 +3,8 @@
    <head>
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Document</title>
+      <title>Προστατέψτε την Επένδυσή Σας σε Έπιπλα</title>
+      <link rel="shortcut icon" href="images/favi-rino.ico" type="image/x-icon">
       <!-- ! Tailwind config -->
       <script src="https://cdn.tailwindcss.com"></script>
       <script>
@@ -47,35 +48,53 @@
 
    <body>
       <!-- ? navbar mobile second -->
-      <section
-         id="navbar-mobile"
-         class="flex justify-center border-b-2 min-h-[70px] bg-[#FF0000]  "
-      >
-         <div
-            class="flex justify-center items-center md:justify-evenly sm:w-[640px] md:w-[768px] lg:w-[1024px] xl:[1280px] 2xl:w-[1300px]"
-         >
-            <div class="text-white  font-bold text-center p-4">
-               Η AΠΟΛΥΤΗ ΥΓΡΗ ΡΗΤΙΝΗ ΜΕ ΕΚΠΤΩΣΗ 50%
-            </div>
-         </div>
-      </section>
+   
 
       <!-- ? Header section desktop-->
 
       <main class="">
+
+        
+
+         
          <!-- ? Hero section -->
          <section
             id="home"
-            class="flex flex-col items-center tab-content py-10 "
+            class="flex flex-col items-center tab-content"
          >
+
+         <article id="navbar-mobile" class="flex justify-center w-full border-b-2">
+           
+            <div
+               class="w-[80] md:w-full flex items-center bg-purple-300 justify-center p-1"
+            >
+                   <img src="images/logoRino.png" class="md:max-w-[180px]" alt="logo" />
+            </div>
+
+            <div class="hidden md:w-full md:flex items-center w-[80%] p-5">
+                  <p class="font-bold text-xl">
+                     Ο ΕΥΚΟΛΟΣ ΤΡΟΠΟΣ ΓΙΑ ΝΑ ΔΩΣΕΙΣ ΠΝΟΗ
+                        ΣΤΑ ΕΠΙΠΛΑ
+                  </p>
+                  <img
+                     src="images/3e0dd078ae2ff27e3e7584c638f3dbff.png"
+                     class="w-8 h-8"
+                     alt=""
+                  />
+            </div>   
+         </article>
+
+
+
             <div
                class="flex gap-5 sm:w-[640px] md:w-[768px] lg:w-[1024px] xl:[1280px] 2xl:w-[1300px] px-3"
             >
                <!-- ? parrafos/contenido -->
+
                <div
                   class="PARRAFOS flex flex-col gap-5 md:w-[70%] lg:[&>p]:text-xl"
                >
-                  <h2 class="font-bold text-2xl md:text-[32px] ">
+                  <h2 class="font-bold text-2xl md:text-[32px] pt-10">
                      Δε ήθελα να ξεπουληθώ σε επιπλοποιούς και πατωματζήδες.
                      Ευτυχώς, βρήκα τη λύση και έδωσα στα έπιπλά μου τη λάμψη
                      που τους αξίζει!
@@ -487,6 +506,52 @@
             id="second-home"
             class="flex flex-col items-center tab-content hidden"
          >
+
+
+         <article
+         id="navbar-mobile"
+         class="flex justify-center border-b-2 min-h-[70px] w-full items-center bg-[#FF0000]  "
+      >
+   
+            <div class="text-white  font-bold text-center p-4">
+               Η AΠΟΛΥΤΗ ΥΓΡΗ ΡΗΤΙΝΗ ΜΕ ΕΚΠΤΩΣΗ 50%
+            </div>
+        
+         </article> 
+
+
+
+
+           <article id="navbar-mobile" class="flex justify-center border-b-2 ">
+           
+
+            <div
+            class="flex justify-center gap-5 sm:w-[640px] md:w-[768px] lg:w-[1024px] xl:[1280px] 2xl:w-[1300px] px-3"
+         >
+               <div
+                   class="w-[80%]  md:w-full flex  items-center justify-center md:justify-start p-5 lg:max-h-[80px]"
+                  >
+                    <img src="images/logoRino.png" class="max-w-[150px] md:max-w-[180px]" alt="logo" />
+               </div>
+
+                <div class="hidden md:w-full md:flex  gap-10 justify-end items-center w-[80%] p-5">
+                     <a href="#second-section" class="font-bold uppercase text-sm">
+                        χαρακτηριστικα
+                     </a>
+                     <a href="#rating-section" class="font-bold uppercase text-sm">
+                        αξιολογησεις 
+                     </a>
+                     <a
+                     href="#send-form"
+                     class="font-bold text-center text-base md:w-[30%] md:p-3 md:text-sm  text-white rounded-2xl border-b-[5px] p-5 border-b-[#a75900] shadow-xl bg-[#F96A04]"
+                  >
+                  ΑΓΟΡΑΣΕ ΕΔΩ
+                  </a>
+
+               </div>   
+            </div>
+              
+            </article>
       
             <article id="home-section" class="flex justify-center py-10">
                <div
@@ -864,7 +929,7 @@
                </div>
             </article>
 
-            <article id="offer-section" class="flex justify-center py-10">
+            <article id="rating-section" class="flex justify-center py-10">
                <div
                   class="flex flex-col    gap-5 lg:gap-10 items-center sm:w-[640px] md:w-[768px] lg:w-[1024px] xl:[1280px] 2xl:w-[1300px]"
                >
@@ -1123,13 +1188,13 @@
                         </article>
                      </div>
 
-                     <button
-                        type="submit"
-                        onclick="sendSubscribeForm('send-form')"
+                     <a
+                      
+                        href="#send-form"
                         class="font-bold text-base md:text-3xl lg:text-2xl text-white rounded-xl border-b-[5px] p-5 border-b-[#a75900] shadow-xl bg-[#FF8425]"
                      >
                         ΜΕ 50% ΕΚΠΤΩΣΗ
-                     </button>
+                     </a>
                   </div>
                </div>
             </article>
